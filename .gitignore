@@ -1,0 +1,9 @@
+node_modules/
+.next/
+.env
+*.zip
+*.mp4
+*.mov
+*.psd
+*.ai
+*.rar
