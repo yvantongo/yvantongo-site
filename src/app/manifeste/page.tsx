@@ -1,55 +1,54 @@
-import React from "react";
-
-export const metadata = {
-  title: "Manifeste – Yvan Tongo",
-  description:
-    "Le manifeste de Yvan Tongo : vision, engagement et transformation agricole.",
-};
-
 export default function ManifestePage() {
   return (
-    <main className="max-w-3xl mx-auto px-6 py-16">
-      <h1 className="text-4xl font-bold text-green-900 mb-6">
-        Le Manifeste
-      </h1>
+    <main className="max-w-4xl mx-auto px-4 py-16 text-[#10351f]">
 
-      <p className="text-lg leading-relaxed text-gray-800 mb-6">
-        L’agriculture n’est pas un héritage. <br />
-        <strong>C’est une mission.</strong>
+      <h1 className="font-serif text-4xl mb-6">Manifeste</h1>
+
+      <img
+        src="/images/manifesto-cover-new.jpg"
+        alt="Manifeste"
+        className="w-full rounded-xl mb-8"
+      />
+
+      <p className="text-lg leading-relaxed mb-6">
+        Ce manifeste s’intitule “11 actions pour dynamiser le secteur agricole 
+au Cameroun”, 
+mais au fond, il parle de plus que d’agriculture. 
+Il parle de vision, de jeunesse, de leadership. 
+Il parle d’un pays qui cherche sa direction, 
+et d’une génération qui refuse d’attendre qu’on la lui trace.
       </p>
 
-      <p className="text-lg leading-relaxed text-gray-800 mb-6">
-        Dans un monde en transformation, où les défis alimentaires,
-        environnementaux et sociaux sont de plus en plus complexes,
-        l’agriculture reste au cœur de toutes les solutions. Je crois en une
-        agriculture moderne, innovante, structurée… mais profondément humaine.
+      <p className="text-lg leading-relaxed mb-6">
+         J’ai voulu que ces 11 actions soient concrètes, accessibles, réalisables, 
+mais surtout porteuses d’un souffle humain. 
+Elles ne viennent pas d’un bureau, 
+mais d’une observation sincère du terrain, 
+des fermiers qui se battent, 
+des coopératives qui survivent, 
+des jeunes qui rêvent, 
+et des décideurs qui, souvent, manquent simplement d’un plan lisible
       </p>
 
-      <p className="text-lg leading-relaxed text-gray-800 mb-6">
-        Mon engagement est clair : contribuer à relever le secteur agricole,
-        inspirer une nouvelle génération d’agro-leaders et construire des
-        modèles capables de créer de la valeur durable.
+      <p className="text-lg leading-relaxed mb-6">
+
+     Voici ma contribution. 
+Voici notre lettre. 
+Celle d’une génération qui ne veut plus subir, 
+mais semer et récolter enfin, le pays qu’elle mérite.
       </p>
 
-      <p className="text-lg leading-relaxed text-gray-800 mb-6">
-        Ce manifeste est une invitation : à repenser, valoriser, transformer
-        l’agriculture africaine avec audace, discipline et ambition.
+      <p className="text-lg leading-relaxed mb-10 font-semibold">
+        Bonne lecture...
       </p>
 
-      <div className="mt-10 p-6 bg-green-50 border-l-4 border-green-700 rounded">
-        <p className="text-lg font-semibold text-green-900">
-          « L’agriculture n’est pas un héritage, c’est une mission. »
-        </p>
-      </div>
-
-      <div className="mt-16 flex justify-center">
-        <a
-          href="/"
-          className="px-6 py-3 bg-green-800 text-white rounded hover:bg-green-700 transition"
-        >
-          Retour à l’accueil
-        </a>
-      </div>
+      <a
+        href="/manifeste.pdf"
+        download
+        className="inline-block bg-[#10351f] text-white px-6 py-3 rounded-full"
+      >
+        Télécharger le manifeste
+      </a>
     </main>
   );
 }
