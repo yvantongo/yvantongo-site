@@ -1,6 +1,204 @@
 import { notFound } from "next/navigation";
+export async function generateMetadata({ params }: { params: { slug: string } }) {
+  const article = articles[params.slug];
+
+  if (!article) {
+    return {};
+  }
+
+  return {
+    title: `${article.title} | Yvan Tongo`,
+    description: article.content
+      ?.toString()
+      ?.slice(0, 160)
+      || article.title,
+    openGraph: {
+      title: article.title,
+      description: article.title,
+      images: [article.image],
+      type: "article",
+    },
+  };
+}
 
 const articles: any = {
+  "les-francais-vont-manger-quoi": {
+  title: "Les Français vont manger quoi ?",
+  date: "19 decembre 2025",
+  image: "/images/articles/les-francais-vont-manger-quoi-demain.jpg",
+  content: (
+    <>
+      <p>
+        La question paraît banale. Presque ridicule.
+        Et pourtant, avec tout ce qui se passe en ce moment, c’est probablement la question
+        la plus sérieuse qu’on devrait tous se poser.
+      </p>
+
+      <p>
+        J’écris pour ceux de mes amis qui ne comprennent pas vraiment ce qui se joue avec
+        les agriculteurs aujourd’hui. Moi, je leur dis une chose simple :
+        Ces agriculteurs dans la rue se battent pour ce que vous allez manger demain.
+      </p>
+
+      <p>
+        Ils ne demandent ni pitié, ni compassion.
+        Ils demandent juste de l’équité.
+      </p>
+
+      <p><strong>Et voici pourquoi.</strong></p>
+
+      <hr className="my-8" />
+
+      <h2 className="text-2xl font-bold mt-10 mb-4">
+        1. L’accord entre l’Union européenne et le Mercosur
+      </h2>
+
+      <p>
+        Le Mercosur est une alliance économique et politique entre plusieurs pays
+        d’Amérique du Sud : le Brésil, l’Argentine, l’Uruguay et le Paraguay.
+        L’objectif de l’accord avec l’Union européenne est de faciliter les échanges
+        commerciaux entre ces deux blocs.
+      </p>
+
+      <p>
+        Sur le plan géopolitique, la France et l’Union européenne perdent progressivement
+        certains alliés stratégiques. Pour y faire face, elles cherchent de nouveaux partenaires.
+        Le Mercosur a été choisi. Très vite, les décideurs se sont concentrés sur ce qu’ils pensent
+        y gagner : vendre de la technologie, de l’automobile, des services industriels, etc.
+      </p>
+
+      <p>
+        Contrairement à ce que certains imaginent, je pense qu’ils savent aussi très bien
+        ce qu’ils perdent. Car cet accord ouvre la porte à une arrivée massive de produits
+        agricoles et agroalimentaires sud-américains sur le marché européen.
+      </p>
+
+      <p>
+        Des produits qui viendront concurrencer cruellement ceux de nos agriculteurs,
+        déjà fragilisés économiquement.
+      </p>
+
+      <p>
+        Entre des coûts de production élevés liés aux nombreuses normes et contraintes
+        imposées par les gouvernements et la baisse progressive des aides, beaucoup peinent
+        déjà à joindre les deux bouts.
+      </p>
+
+      <p>
+        On est donc en droit de se demander jusqu’où ira le mépris collectif envers ceux
+        qui se battent jour et nuit pour ce que nous mangerons demain.
+      </p>
+
+      <p>
+        Oui, je pense que le secteur agricole a été sacrifié.
+      </p>
+
+      <hr className="my-8" />
+
+      <h2 className="text-2xl font-bold mt-10 mb-4">
+        2. La question de la retraite et du renouvellement
+      </h2>
+
+      <p>
+        Peut-être que beaucoup l’ignorent, mais je le répète chaque fois que l’occasion
+        se présente : 50 % des agriculteurs français partiront à la retraite d’ici cinq ans.
+      </p>
+
+      <p>
+        Et ce chiffre, à lui seul, devrait nous alarmer.
+      </p>
+
+      <p>
+        Mais ce n’est pas tout. Les 50 % restants continueront d’alimenter une statistique
+        glaçante : un agriculteur se suicide tous les deux jours en France.
+      </p>
+
+      <p>
+        L’avenir de nos assiettes est donc bien plus grave qu’on ne veut l’admettre.
+        Certains partiront à la retraite, d’autres se donneront la mort.
+        Et ensuite, on demandera aux jeunes de s’engager pour assurer la relève.
+      </p>
+
+      <p>
+        Mais de quelle relève parle-t-on ?
+      </p>
+
+      <p>Du prochain suicide ?</p>
+      <p>Du prochain gréviste ?</p>
+      <p>Du prochain agriculteur surendetté ?</p>
+
+      <p>
+        À ce rythme, voilà malheureusement ce que le secteur agricole propose aujourd’hui
+        à la jeunesse.
+      </p>
+
+      <hr className="my-8" />
+
+      <h2 className="text-2xl font-bold mt-10 mb-4">
+        3. L’incohérence entre les discours et les actes
+      </h2>
+
+      <p>
+        Il y a une incohérence flagrante entre ce que l’on dit et ce que l’on fait.
+        Je pense ici à la loi EGAlim, mais aussi à toute la communication autour de la
+        transition écologique.
+      </p>
+
+      <p>
+        Je ne suis pas un ennemi de l’écologie. Mais je reste convaincu que ce sont
+        les fermiers qui en paient le prix fort.
+      </p>
+
+      <p>
+        On se presse d’interdire certains pesticides et sur le fond, le débat est légitime,
+        mais on ne voit aucun problème à importer massivement des produits agricoles
+        du Brésil ou d’ailleurs.
+      </p>
+
+      <p>
+        Qui parmi nous va vérifier sur place si ces produits respectent les mêmes normes
+        environnementales, sanitaires et sociales que celles imposées à nos agriculteurs ?
+      </p>
+
+      <p>
+        Pour ce qui est de la loi EGAlim, elle ressemble à une anesthésie avant opération :
+        on vous endort, et au réveil, les médecins (décideurs et grandes industries)
+        sont devant vous en vous disant que tout s’est bien passé.
+      </p>
+
+      <hr className="my-8" />
+
+      <h2 className="text-2xl font-bold mt-10 mb-4">
+        En conclusion
+      </h2>
+
+      <p>
+        Oui, ceux qui nous nourrissent ont le droit de se fâcher.
+        Oui, ceux qui nous dirigent ont l’obligation de répondre à leurs revendications.
+      </p>
+
+      <p>
+        Mais nous, consommateurs, devons nous poser une question essentielle :
+        après tout ça, qu’allons-nous manger ?
+      </p>
+
+      <ul className="list-disc pl-6">
+        <li>Des produits moins chers, sans traçabilité, sans contrôle réel ?</li>
+        <li>Des produits très chers, au nom du soutien absolu au local ?</li>
+        <li>
+          Ou des produits de qualité, suivis par nos producteurs,
+          à des prix justes et accessibles ?
+        </li>
+      </ul>
+
+      <p className="mt-6">
+        Quand nous aurons répondu collectivement à cette question,
+        nos décideurs sauront quoi faire.
+      </p>
+    </>
+  )
+},
+
   "espoir-jeunesse": {
     title: "Et si c’était le dernier espoir de la jeunesse ?",
     date: "23 novembre 2025",

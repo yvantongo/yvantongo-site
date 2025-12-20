@@ -2,6 +2,15 @@
 
 const articles = [
   {
+  slug: "les-francais-vont-manger-quoi",
+  title: "Les Français vont manger quoi ?",
+  cover: "/images/articles/les-francais-vont-manger-quoi-demain.jpg",
+  date: "19 decembre 2025",
+  excerpt:
+    "La question paraît banale. Presque ridicule. Et pourtant, avec tout ce qui se passe en ce moment, c’est probablement la question la plus sérieuse qu’on devrait tous se poser.",
+},
+
+  {
     slug: "espoir-jeunesse",
     title: "Et si c’était le dernier espoir de la jeunesse ?",
     cover: "/images/articles/espoir-jeunesse.jpg",
@@ -17,14 +26,7 @@ const articles = [
     excerpt:
       "Perception négative, manque de visibilité, contraintes structurelles : une analyse honnête de ce qui éloigne la jeunesse du secteur agricole.",
   },
-  {
-    slug: "5-idees-image-agriculture",
-    title: "5 idées pour rendre l’image de l’agriculture plus attractive",
-    cover: "/images/articles/5-idees-image-agriculture.jpg",
-    date: "23 septembre 2025",
-    excerpt:
-      "Professionnalisation, visibilité, jeunesse, collaboration, technologie : 5 leviers concrets pour changer l’image du secteur.",
-  },
+  
 ];
 
 const projects = [

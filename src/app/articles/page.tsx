@@ -1,5 +1,13 @@
 const articles = [
   {
+  slug: "les-francais-vont-manger-quoi",
+  title: "Les Français vont manger quoi ?",
+  excerpt: "La question paraît banale. Presque ridicule. Et pourtant, avec tout ce qui se passe en ce moment, c’est probablement la question la plus sérieuse qu’on devrait tous se poser.",
+  date: "19 decembre 2025",
+  image: "/images/articles/les-francais-vont-manger-quoi-demain.jpg",
+},
+
+  {
     slug: "espoir-jeunesse",
     title: "Et si c’était le dernier espoir de la jeunesse ?",
     image: "/images/articles/espoir-jeunesse.jpg",
