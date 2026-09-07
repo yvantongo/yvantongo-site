@@ -1,5 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-:root{--bg:#F7F1E5;--ink:#1A1A1A;--green:#18392B;--gold:#C1A16A}
+:root{
+  --bg:#F6F1E2; --ink:#1E2A22; --green-900:#173D1F; --green-700:#2E7D45; --gold:#F0A020;
+  --t1:#2E7D45; --t2:#F0A020; --t3:#2E6DA4; --t4:#274472; --t5:#5B9E3E;
+  --t6:#E07A2C; --t7:#C43F6E; --t8:#8A2E2E; --t9:#6B4C9A; --t10:#7A5230;
+}
 html,body{background:var(--bg);color:var(--ink)}
+
+.mosaic-strip{ display:flex; height:6px; border-radius:3px; overflow:hidden; }
+.mosaic-strip > div{ flex:1; }
+.mosaic-strip .m1{background:var(--t1);} .mosaic-strip .m2{background:var(--t2);} .mosaic-strip .m3{background:var(--t3);}
+.mosaic-strip .m4{background:var(--t4);} .mosaic-strip .m5{background:var(--t5);} .mosaic-strip .m6{background:var(--t6);}
+.mosaic-strip .m7{background:var(--t7);} .mosaic-strip .m8{background:var(--t8);} .mosaic-strip .m9{background:var(--t9);} .mosaic-strip .m10{background:var(--t10);}
