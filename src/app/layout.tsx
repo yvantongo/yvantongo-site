@@ -39,6 +39,28 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="fr">
       <body className="bg-[#F6F1E2] text-[#1E2A22]">
 
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Yvan Tongo",
+              "url": "https://www.yvantongo.com",
+              "image": "https://www.yvantongo.com/images/yvan.jpg",
+              "jobTitle": "Fondateur d'AgriComp",
+              "description": "Étudiant en Master Management et Expertise Agricole et Agroalimentaire, fondateur d'AgriComp, réseau connectant les jeunes talents aux compétences dont l'agriculture de demain a besoin.",
+              "sameAs": [
+                "https://agricomp.fr",
+                "https://www.linkedin.com/in/yvan-tongo-960926243/",
+                "https://www.instagram.com/yvan_tongo",
+                "https://www.facebook.com/share/1E3YjJkhwW/"
+              ],
+              "worksFor": { "@type": "Organization", "name": "AgriComp", "url": "https://agricomp.fr" }
+            })
+          }}
+        />
+
         {/* HEADER / NAVIGATION */}
         <header className="border-b border-[#E3D9C0] bg-[#F6F1E2] px-4 py-4 sticky top-0 z-50">
           <div className="mx-auto max-w-5xl flex items-center justify-between">
@@ -49,7 +71,14 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
             <nav className="flex flex-wrap items-center gap-4 md:gap-6 text-sm text-[#1E2A22]">
               <a href="/" className="hover:text-[#173D1F] hover:underline">Accueil</a>
-              <a href="https://agricomp.fr" target="_blank" rel="noreferrer" className="rounded-full bg-[#173D1F] px-4 py-1.5 text-white font-medium hover:bg-[#2E7D45]">🌾 AgriComp</a>
+              <a
+                href="https://agricomp.fr"
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-full bg-[#173D1F] px-4 py-1.5 text-white font-medium hover:bg-[#2E7D45]"
+              >
+                🌾 AgriComp
+              </a>
               <a href="/#ebook" className="hover:text-[#173D1F] hover:underline">Le Livre</a>
               <a href="/manifeste" className="hover:text-[#173D1F] hover:underline">Manifeste</a>
               <a href="/articles" className="hover:text-[#173D1F] hover:underline">Articles</a>
