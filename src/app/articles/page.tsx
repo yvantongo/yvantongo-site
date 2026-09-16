@@ -1,5 +1,13 @@
 const articles = [
   {
+    slug: "2036-poulet-entier-salon-agriculture",
+    title: "2036 : vous ne verrez plus de poulet entier",
+    image: "/images/articles/salon-agriculture-poulet-2036.jpg",
+    excerpt:
+      "Au Salon International de l'Agriculture, j'ai participé à Impro d'Agro, le défi organisé par l'Acta où il fallait se projeter comme ingénieur en 2036. Ma conclusion sur la filière avicole a un peu cassé les codes de ce qu'on attendait de nous.",
+    date: "16 septembre 2026",
+  },
+  {
   slug: "les-francais-vont-manger-quoi",
   title: "Les Français vont manger quoi ?",
   excerpt: "La question paraît banale. Presque ridicule. Et pourtant, avec tout ce qui se passe en ce moment, c’est probablement la question la plus sérieuse qu’on devrait tous se poser.",
@@ -46,11 +54,7 @@ export default function ArticlesPage() {
 
         <div className="mt-8 grid gap-6 md:grid-cols-3">
           {articles.map((article) => (
-            <a
-              key={article.slug}
-              href={`/articles/${article.slug}`}
-              className="flex h-full flex-col overflow-hidden rounded-2xl border border-[#eadfcd] bg-[#fdf7ec] hover:shadow-md transition"
-            >
+            <a key={article.slug} href={`/articles/${article.slug}`} className="flex h-full flex-col overflow-hidden rounded-2xl border border-[#eadfcd] bg-[#fdf7ec] hover:shadow-md transition">
               <div className="bg-[#f5ebdb] flex justify-center">
                 <img
                   src={article.image}
