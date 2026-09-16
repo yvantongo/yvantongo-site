@@ -2,6 +2,14 @@
 
 const articles = [
   {
+    slug: "2036-poulet-entier-salon-agriculture",
+    title: "2036 : vous ne verrez plus de poulet entier",
+    cover: "/images/articles/salon-agriculture-poulet-2036.jpg",
+    date: "16 septembre 2026",
+    excerpt:
+      "Au Salon International de l'Agriculture, j'ai participé à Impro d'Agro, le défi organisé par l'Acta où il fallait se projeter comme ingénieur en 2036. Ma conclusion sur la filière avicole a un peu cassé les codes de ce qu'on attendait de nous.",
+  },
+  {
     slug: "les-francais-vont-manger-quoi",
     title: "Les Français vont manger quoi ?",
     cover: "/images/articles/les-francais-vont-manger-quoi-demain.jpg",
