@@ -705,8 +705,8 @@ const articles: any = {
       <>
         <p>
           S'il y a une chose que je n'ai plus peur de faire, c'est me projeter
-          sur dix ans. Alors quand l'Acta — le réseau national des instituts
-          techniques agricoles français — a proposé Impro d'Agro lors du
+          sur dix ans. Alors quand l'Acta, le réseau national des instituts
+          techniques agricoles français, a proposé Impro d'Agro lors du
           dernier Salon International de l'Agriculture à Paris, un défi de
           design fiction où il fallait s'imaginer ingénieur en 2036 pour
           inventer des solutions concrètes à plusieurs filières agricoles,
@@ -718,7 +718,7 @@ const articles: any = {
           la souveraineté alimentaire française. Un vrai coup de chance :
           nous étions en plein Salon, donc tous les acteurs de la filière
           étaient là, à portée de question. J'en ai profité pour interroger
-          un maximum de monde — d'Anvol, l'interprofession de la volaille de
+          un maximum de monde : d'Anvol, l'interprofession de la volaille de
           chair, aux responsables du stand jeunes agriculteurs, du ministère
           aux assureurs, des restaurateurs jusqu'aux consommateurs eux-mêmes
           sur place.
@@ -747,7 +747,7 @@ const articles: any = {
           Tout ça est vrai, chiffres à l'appui. La consommation de poulet a
           bondi de 24,4 % en cinq ans, et encore de 5,6 % rien qu'entre 2024
           et 2025. Le poulet a dépassé le bœuf dès 2013, puis toute la viande
-          bovine à lui seul en 2022 — et en 2024, la volaille a rattrapé le
+          bovine à lui seul en 2022. Et en 2024, la volaille a rattrapé le
           porc comme viande la plus consommée en France. La production peine
           à suivre : elle a certes augmenté, mais "l'offre en poulet du
           quotidien reste insuffisante aujourd'hui", comme le résume sans
@@ -763,7 +763,7 @@ const articles: any = {
         </h2>
 
         <p>
-          Pas parce que tout ce qui précède n'a pas d'importance — au
+          Pas parce que tout ce qui précède n'a pas d'importance, au
           contraire. Mais parce qu'il se passe, en silence, quelque chose
           d'encore plus profond : le poulet entier est en train de
           disparaître de nos maisons.
@@ -772,9 +772,9 @@ const articles: any = {
         <p>
           En 1998, il représentait 52 % des achats de poulet en rayon.
           Aujourd'hui, il ne pèse plus que 14,4 %. À la place, ce sont les
-          découpes — ailes, cuisses, filets — qui dominent avec 51,2 % des
-          achats, et les produits élaborés — nuggets, panés, préparations
-          diverses — qui captent plus de 30 % du reste. Ce n'est pas une
+          découpes (ailes, cuisses, filets) qui dominent avec 51,2 % des
+          achats, et les produits élaborés (nuggets, panés, préparations
+          diverses) qui captent plus de 30 % du reste. Ce n'est pas une
           tendance qui s'amorce. C'est une bascule déjà largement accomplie.
         </p>
 
@@ -791,7 +791,7 @@ const articles: any = {
           parfaitement organisée par tranche d'âge. Les tenders et les
           nuggets pour les enfants, les ailes pour l'apéro, l'escalope pour
           le repas rapide et équilibré. Chacun trouve sa pièce, son format,
-          son moment de consommation — et personne ne se sent obligé de
+          son moment de consommation, et personne ne se sent obligé de
           remettre en question l'animal entier, puisqu'il n'a plus vraiment
           sa place dans cette organisation.
         </p>
@@ -817,13 +817,13 @@ const articles: any = {
           AgriComp quelques mois plus tard : l'agriculture de demain n'a pas
           seulement besoin de plus de production. Elle a besoin de gens
           capables de comprendre ces bascules de consommation, de les
-          anticiper, de les expliquer au grand public — des compétences en
+          anticiper, de les expliquer au grand public, des compétences en
           stratégie, en communication, en analyse, autant qu'en agronomie.
         </p>
 
         <p>
           2036, ce n'est plus si loin. La vraie question n'est pas de savoir
-          si le poulet entier va continuer à disparaître de nos maisons —
+          si le poulet entier va continuer à disparaître de nos maisons,
           c'est déjà en cours. La question, c'est ce qu'on choisit de
           comprendre et de raconter à ce sujet, avant que la génération
           suivante ne se contente d'un poulet qui n'a plus jamais eu de forme
