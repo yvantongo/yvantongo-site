@@ -696,6 +696,149 @@ const articles: any = {
       </>
     ),
   },
+
+  "2036-poulet-entier-salon-agriculture": {
+    title: "2036 : vous ne verrez plus de poulet entier",
+    date: "16 septembre 2026",
+    image: "/images/articles/salon-agriculture-poulet-2036.jpg",
+    content: (
+      <>
+        <p>
+          S'il y a une chose que je n'ai plus peur de faire, c'est me projeter
+          sur dix ans. Alors quand l'Acta — le réseau national des instituts
+          techniques agricoles français — a proposé Impro d'Agro lors du
+          dernier Salon International de l'Agriculture à Paris, un défi de
+          design fiction où il fallait s'imaginer ingénieur en 2036 pour
+          inventer des solutions concrètes à plusieurs filières agricoles,
+          j'ai tout de suite voulu y amener mon amour pour ce secteur.
+        </p>
+
+        <p>
+          Notre équipe s'est vu confier la filière avicole, et sa place dans
+          la souveraineté alimentaire française. Un vrai coup de chance :
+          nous étions en plein Salon, donc tous les acteurs de la filière
+          étaient là, à portée de question. J'en ai profité pour interroger
+          un maximum de monde — d'Anvol, l'interprofession de la volaille de
+          chair, aux responsables du stand jeunes agriculteurs, du ministère
+          aux assureurs, des restaurateurs jusqu'aux consommateurs eux-mêmes
+          sur place.
+        </p>
+
+        <hr className="my-8" />
+
+        <h2 className="text-2xl font-bold mt-10 mb-4">
+          Ce qu'on attendait probablement de nous
+        </h2>
+
+        <p>
+          Beaucoup s'attendaient à ce qu'on ressorte les constats habituels,
+          et ils ne sont pas faux : que les producteurs étouffent sous les
+          réglementations, que le modèle "poulet hors cage" s'essouffle face
+          à la hausse de la consommation, que les importations ne sont plus
+          un simple complément de concurrence mais un vrai besoin structurel
+          pour nourrir le pays, que certains distributeurs n'hésitent pas à
+          se tourner vers l'offre la moins chère au détriment des producteurs
+          locaux, et que les pouvoirs publics peinent à suivre le rythme.
+          Bref, que la souveraineté alimentaire française prend un coup, et
+          que la filière avicole y est pour beaucoup.
+        </p>
+
+        <p>
+          Tout ça est vrai, chiffres à l'appui. La consommation de poulet a
+          bondi de 24,4 % en cinq ans, et encore de 5,6 % rien qu'entre 2024
+          et 2025. Le poulet a dépassé le bœuf dès 2013, puis toute la viande
+          bovine à lui seul en 2022 — et en 2024, la volaille a rattrapé le
+          porc comme viande la plus consommée en France. La production peine
+          à suivre : elle a certes augmenté, mais "l'offre en poulet du
+          quotidien reste insuffisante aujourd'hui", comme le résume sans
+          détour le président d'Anvol. Résultat : le recours aux importations
+          continue de grandir, exactement au moment où on parle de plus en
+          plus de souveraineté alimentaire.
+        </p>
+
+        <hr className="my-8" />
+
+        <h2 className="text-2xl font-bold mt-10 mb-4">
+          Mais ce n'est pas ça qui m'a le plus marqué
+        </h2>
+
+        <p>
+          Pas parce que tout ce qui précède n'a pas d'importance — au
+          contraire. Mais parce qu'il se passe, en silence, quelque chose
+          d'encore plus profond : le poulet entier est en train de
+          disparaître de nos maisons.
+        </p>
+
+        <p>
+          En 1998, il représentait 52 % des achats de poulet en rayon.
+          Aujourd'hui, il ne pèse plus que 14,4 %. À la place, ce sont les
+          découpes — ailes, cuisses, filets — qui dominent avec 51,2 % des
+          achats, et les produits élaborés — nuggets, panés, préparations
+          diverses — qui captent plus de 30 % du reste. Ce n'est pas une
+          tendance qui s'amorce. C'est une bascule déjà largement accomplie.
+        </p>
+
+        <p>
+          Et si vos futurs enfants, vos futurs petits-enfants, ne savaient
+          plus vraiment à quoi ressemble un poulet entier ? Bon j'abuse un
+          peu, mais à peine : on peut très bien imaginer un futur où voir
+          l'animal dans son intégralité devienne suffisamment rare pour
+          surprendre, comme une curiosité plutôt qu'un produit du quotidien.
+        </p>
+
+        <p>
+          Ce qui rend cette bascule incroyable, c'est qu'elle est
+          parfaitement organisée par tranche d'âge. Les tenders et les
+          nuggets pour les enfants, les ailes pour l'apéro, l'escalope pour
+          le repas rapide et équilibré. Chacun trouve sa pièce, son format,
+          son moment de consommation — et personne ne se sent obligé de
+          remettre en question l'animal entier, puisqu'il n'a plus vraiment
+          sa place dans cette organisation.
+        </p>
+
+        <hr className="my-8" />
+
+        <h2 className="text-2xl font-bold mt-10 mb-4">
+          Pourquoi ça me concerne, au-delà du poulet
+        </h2>
+
+        <p>
+          Une filière qu'on ne voit plus dans son ensemble, c'est une filière
+          plus difficile à défendre dans son ensemble. Quand l'acte d'achat
+          se réduit à un morceau anonyme sous plastique, le lien avec
+          l'élevage, avec le producteur, avec les choix qui façonnent cette
+          filière, s'affaiblit d'autant. Ce n'est pas un hasard si, dans le
+          même mouvement, la souveraineté alimentaire sur ce secteur devient
+          un sujet d'inquiétude croissante.
+        </p>
+
+        <p>
+          C'est très exactement le genre de constat qui m'a poussé à fonder
+          AgriComp quelques mois plus tard : l'agriculture de demain n'a pas
+          seulement besoin de plus de production. Elle a besoin de gens
+          capables de comprendre ces bascules de consommation, de les
+          anticiper, de les expliquer au grand public — des compétences en
+          stratégie, en communication, en analyse, autant qu'en agronomie.
+        </p>
+
+        <p>
+          2036, ce n'est plus si loin. La vraie question n'est pas de savoir
+          si le poulet entier va continuer à disparaître de nos maisons —
+          c'est déjà en cours. La question, c'est ce qu'on choisit de
+          comprendre et de raconter à ce sujet, avant que la génération
+          suivante ne se contente d'un poulet qui n'a plus jamais eu de forme
+          entière.
+        </p>
+
+        <p className="mt-6 font-semibold">
+          Yvan TONGO
+          <br />
+          Futur Expert conseil en stratégie de développement des filières
+          agricole et agroalimentaire
+        </p>
+      </>
+    ),
+  },
 };
 
 export default function ArticlePage({ params }: { params: { slug: string } }) {
@@ -728,10 +871,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
           {article.content}
         </div>
 
-        <a
-          href="/articles"
-          className="mt-10 inline-block text-sm underline text-[#10351f]"
-        >
+        <a href="/articles" className="mt-10 inline-block text-sm underline text-[#10351f]">
           ← Retour aux articles
         </a>
       </section>
