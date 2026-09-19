@@ -2,6 +2,14 @@
 
 const articles = [
   {
+    slug: "contrat-installation-progressif",
+    title: "Le contrat d'installation progressif",
+    cover: "/images/articles/contrat-installation-progressif.jpg",
+    date: "16 septembre 2026",
+    excerpt:
+      "Un agriculteur se suicide tous les deux jours en France. Face à ce chiffre, une question se pose : quelle nouvelle génération voulons-nous vraiment attirer dans ce secteur ? Cet article revient sur une proposition que nous portons concernant le statut du fermage.",
+  },
+  {
     slug: "2036-poulet-entier-salon-agriculture",
     title: "2036 : vous ne verrez plus de poulet entier",
     cover: "/images/articles/salon-agriculture-poulet-2036.jpg",
@@ -352,14 +360,14 @@ export default function Home() {
               </a>
             </p>
             <div className="mt-3 flex gap-4 text-sm text-[#173D1F]">
-              <a href="https://www.linkedin.com/in/REMPLACER-PAR-VOTRE-URL" target="_blank" rel="noreferrer" className="underline hover:text-[#2E7D45]" >
+              <a href="https://www.linkedin.com/in/yvan-tongo-960926243/" target="_blank" rel="noreferrer" className="underline hover:text-[#2E7D45]" >
                 LinkedIn
               </a>
-              <a href="https://www.instagram.com/REMPLACER-PAR-VOTRE-URL" target="_blank" rel="noreferrer" className="underline hover:text-[#2E7D45]" >
+              <a href="https://www.instagram.com/yvan_tongo" target="_blank" rel="noreferrer" className="underline hover:text-[#2E7D45]" >
                 Instagram
               </a>
-              <a href="https://www.youtube.com/REMPLACER-PAR-VOTRE-URL" target="_blank" rel="noreferrer" className="underline hover:text-[#2E7D45]" >
-                YouTube
+              <a href="https://www.facebook.com/share/1E3YjJkhwW/" target="_blank" rel="noreferrer" className="underline hover:text-[#2E7D45]" >
+                Facebook
               </a>
             </div>
           </div>
