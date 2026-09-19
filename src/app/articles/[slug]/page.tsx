@@ -22,6 +22,142 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 }
 
 const articles: any = {
+  "contrat-installation-progressif": {
+    title: "Le contrat d'installation progressif",
+    date: "16 septembre 2026",
+    image: "/images/articles/contrat-installation-progressif.jpg",
+    content: (
+      <>
+        <p>
+          Commençons par un chiffre qu'on préfère souvent ne pas regarder en
+          face : en France, un agriculteur se suicide tous les deux jours.
+          Face à ça, une question devient légitime, presque inévitable :
+          quelle nouvelle génération voulons-nous attirer dans ce secteur ?
+          Les prochains agriculteurs en détresse ?
+        </p>
+
+        <p>
+          Cet article revient sur une proposition que nous portons concernant
+          le statut du fermage.
+        </p>
+
+        <p>
+          Le statut du fermage, tel qu'on le connaît aujourd'hui, date de la
+          loi du 13 avril 1946. Il vient de fêter ses 80 ans cette année.
+          Quatre-vingts ans de bons et loyaux services pour sécuriser la
+          relation entre propriétaires et fermiers, c'est une chose. Mais
+          soyons réalistes : on ne peut pas attirer des jeunes dans le
+          secteur agricole avec un cadre pensé pour l'après-guerre. Les temps
+          ont changé. Revoir ce statut devient tout aussi essentiel à la
+          santé du secteur que n'importe quelle aide financière.
+        </p>
+
+        <hr className="my-8" />
+
+        <h2 className="text-2xl font-bold mt-10 mb-4">
+          Deux détresses, une seule solution possible
+        </h2>
+
+        <p>
+          D'un côté, les agriculteurs cédants ont peur de transmettre leur
+          exploitation aux mauvaises personnes, et de voir disparaître les
+          valeurs familiales qui en sont à l'origine. De l'autre, les jeunes
+          agriculteurs repreneurs manquent d'expérience et de capital pour
+          reprendre quoi que ce soit dans de bonnes conditions.
+        </p>
+
+        <p>
+          Le contrat d'installation progressif vient répondre à cette double
+          problématique, pas à une seule des deux moitiés.
+        </p>
+
+        <hr className="my-8" />
+
+        <h2 className="text-2xl font-bold mt-10 mb-4">
+          Le principe, concrètement
+        </h2>
+
+        <p>
+          Un jeune agriculteur devient co-preneur du bail pendant cinq ans,
+          structurés en trois étapes.
+        </p>
+
+        <p>
+          Phase mentor, deux ans : le jeune agriculteur est accompagné par
+          l'exploitant en place, et apprend la gestion réelle de
+          l'exploitation à ses côtés.
+        </p>
+
+        <p>
+          Co-exploitation, trois ans : la gestion devient partagée entre les
+          deux, avec une prise de responsabilités progressive du jeune
+          agriculteur.
+        </p>
+
+        <p>
+          Transmission du bail : au terme des cinq ans, le bail est transféré
+          au jeune agriculteur, qui devient exploitant principal.
+        </p>
+
+        <hr className="my-8" />
+
+        <h2 className="text-2xl font-bold mt-10 mb-4">
+          Un exemple pour rendre ça concret
+        </h2>
+
+        <p>
+          Monsieur Martin, agriculteur proche de la retraite, possède une
+          exploitation de 60 hectares. Lucas, jeune agriculteur de 26 ans,
+          souhaite s'installer, mais lui manquent l'expérience et le capital
+          pour le faire seul.
+        </p>
+
+        <p>
+          Le contrat se met en place ainsi : pendant deux ans, Lucas travaille
+          aux côtés de M. Martin pour apprendre la gestion de l'exploitation.
+          Les trois années suivantes, il devient co-preneur du bail et
+          participe activement aux décisions. À la fin des cinq ans, il
+          reprend le bail et devient exploitant principal.
+        </p>
+
+        <p>
+          Résultat : une transmission progressive de l'exploitation, et une
+          installation sécurisée pour le jeune agriculteur, plutôt qu'un saut
+          dans le vide des deux côtés.
+        </p>
+
+        <hr className="my-8" />
+
+        <h2 className="text-2xl font-bold mt-10 mb-4">
+          Pourquoi ça rejoint ce que je porte avec AgriComp
+        </h2>
+
+        <p>
+          Ce contrat n'est pas qu'une solution juridique à un problème de
+          foncier. C'est la preuve qu'améliorer l'installation agricole
+          demande autant de compétences en ingénierie contractuelle, en
+          structuration financière et en accompagnement humain qu'en
+          agronomie. Exactement le type de compétences qu'AgriComp cherche à
+          connecter à ce secteur, à travers ses dix blocs et son livre
+          collectif.
+        </p>
+
+        <p>
+          Le statut du fermage a mis quatre-vingts ans à devenir ce qu'il
+          est. On n'a plus quatre-vingts ans devant nous pour le faire
+          évoluer.
+        </p>
+
+        <p className="mt-6 font-semibold">
+          Yvan TONGO
+          <br />
+          Futur Expert conseil en stratégie de développement des filières
+          agricole et agroalimentaire
+        </p>
+      </>
+    ),
+  },
+
   "les-francais-vont-manger-quoi": {
   title: "Les Français vont manger quoi ?",
   date: "19 decembre 2025",
